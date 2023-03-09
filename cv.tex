@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+
+\usepackage{inputenc}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage[round,colon]{natbib}
+\usepackage{hyperref}
+\usepackage{fontspec}
+
+% Edit details here
+\newcommand{\cvName}{Your Name}
+\newcommand{\cvLocation}{your city/county, your country}
+\newcommand{\cvPhone}{+cc your phoneno}
+\newcommand{\cvEmail}{name@youremail.com}
+\newcommand{\cvWebsite}{www.yourwebsite.com}
+\newcommand{\cvGithub}{your-gh-handle}
+
+% Imports custom page rules
+\input{config.tex}
+
+\begin{document}
+
+% Makes title
+\maketitle
+
+
+\input{sections/skills.tex}
+\input{sections/experience.tex}
+\input{sections/education.tex}
+\input{sections/projects.tex}
+
+\end{document}
