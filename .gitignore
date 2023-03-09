@@ -1,0 +1,12 @@
+
+*.aux
+*.log
+*.toc
+*.lof
+*.bbl
+*.bcf
+*.blg
+_minted-report/
+main.run.xml
+*.out
+*.lot

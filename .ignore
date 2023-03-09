@@ -1,0 +1,15 @@
+*.aux
+*.log
+*.toc
+*.lof
+.ignore
+.gitignore
+.DS_Store
+assets/
+*.bbl
+*.bcf
+*.blg
+_minted-report/
+main.run.xml
+*.out
+*.lot
